@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+     color: white;
+     font-family: Arial, sans-serif;
+ }
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     background-color: rgb(25, 146, 25);
+ }
+ nav {
+    text-align: left;
+     display:flex;
+     gap: 20px;
+ }
+ nav a {
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+     text-align: left;
+ }
+
+ #main-title {
+     font-size: 36px;
+     margin: 20px;
+ }
+ #categories {
+     margin-left: 20px;
+     font-size: 18px;
+ }
+ 
+ .container { 
+    max-width: 600px; 
+    background: rgb(0, 0, 0); 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+} 
+
+
+form{
+    margin-bottom: 5px;
+    flex-direction: column;
+
+}
+
+ label { display: block; margin: 10px 0 5px; } 
+
+ input[type="text"], input[type="email"], select, textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; } 
+
+ input[type="submit"] { background-color: #5cb85c; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; } 
+
+ input[type="submit"]:hover { background-color: #4cae4c; }
+body { font-family: Arial, sans-serif;margin: 20px; } h1 { text-align: center; } .course { border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; } .courseh2 { margin-top: 0; } .course ul { list-style-type: none; padding: 0; } .course li {
+ background-color: rgb(5, 4, 4); color: white; margin: 0; padding: 0; } .container { width: 80%; margin: 20px auto; padding: 20px; border-radius: 10px; background-color: #444; } h1 { text-align: center; font-size: 2.5em; color: white; } .job { margin-bottom: 20px; padding: 15px; border: 1px solid #555; border-radius: 8px; } .job h2 { font-size: 1.8em; color: white; } .job p { font-size: 1.2em; } .apply-button { background-color: green; color: white; padding: 10px 20px; font-size: 1em; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; } .apply-button:hover { background-color: darkgreen; } 
